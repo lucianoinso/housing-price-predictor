@@ -12,7 +12,7 @@ Finally the model is used for predicting the `SalePrice` values for the dataset 
 
 - XGBoost hyperparameters chosen: `n_estimators=1000, learning_rate=0.05, max_depth=3`
 
-- The dataset is preprocessed using one hot encoding for categorical columns that have less than 10 categories.
+- The dataset is preprocessed using one hot encoding for categorical columns that have less than 10 different values.
 
 - Early stopping is used to prevent overfitting with a tolerance of 50 rounds.
 
