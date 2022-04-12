@@ -6,7 +6,7 @@ The model is trained and validated by splitting the dataset at `input/train.csv`
 
 A Plot of the rmse metric is shown at the end of the training.
 
-Finally the model is used for predicting the `SalePrice` values for the dataset at `input/test.csv`, the output is dumped into the file `submission.csv` which contains two columns `Id` and `SalePrice`, the last column containing the predictions made by this model.
+Finally the model is used for predicting the `SalePrice` values for the dataset at `input/test.csv`, the output is dumped into `submission.csv` file  which will contain two columns, `Id` and `SalePrice`, the last column containing the predictions made by the trained model.
 
 ## Strategies
 
