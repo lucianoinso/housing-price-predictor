@@ -31,3 +31,4 @@ python3 price-predictor.py
 ## Future improvements
 - It could be a good idea to implement a GridSearch for picking the optimal hyperparameters, the ones provided are the best I manually found.
 - Using cross validation with GridSearch to better measure the MAE (mean absolute error) of the results of using different hyperparameters could be useful too.
+- Apply feature engineering to lower the MAE even more.
