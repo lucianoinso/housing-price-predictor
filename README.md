@@ -20,7 +20,7 @@ Finally the model is used for predicting the `SalePrice` values for the dataset 
 Clone the entire repo and install the required libraries:
 
 ```bash
-python3 -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Run
